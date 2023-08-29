@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-29T17:58:27 IST" name="Default suite" finished-at="2023-08-29T17:58:38 IST" duration-ms="11231">
+  <suite started-at="2023-08-29T20:44:59 IST" name="Suite" finished-at="2023-08-29T20:45:28 IST" duration-ms="29436">
     <groups>
     </groups>
-    <test started-at="2023-08-29T17:58:27 IST" name="Default test" finished-at="2023-08-29T17:58:38 IST" duration-ms="11231">
-      <class name="TestCase.ButtonsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.ButtonsTest@183ec003]" started-at="2023-08-29T17:58:27 IST" name="setup" finished-at="2023-08-29T17:58:36 IST" duration-ms="8753" status="PASS">
+    <test started-at="2023-08-29T20:44:59 IST" name="Test" finished-at="2023-08-29T20:45:28 IST" duration-ms="29436">
+      <class name="TestCase.CheckboxTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckboxTest@24569dba]" started-at="2023-08-29T20:45:22 IST" name="setup" finished-at="2023-08-29T20:45:27 IST" duration-ms="5536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Buttons()[pri:0, instance:TestCase.ButtonsTest@183ec003]" started-at="2023-08-29T17:58:36 IST" name="Buttons" finished-at="2023-08-29T17:58:37 IST" duration-ms="1540" status="PASS">
+        <test-method signature="Checkbox()[pri:0, instance:TestCase.CheckboxTest@24569dba]" started-at="2023-08-29T20:45:27 IST" name="Checkbox" finished-at="2023-08-29T20:45:28 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkbox -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckboxTest@24569dba]" started-at="2023-08-29T20:45:28 IST" name="teardown" finished-at="2023-08-29T20:45:28 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.CheckboxTest -->
+      <class name="TestCase.AutoCompleteTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.AutoCompleteTest@4d1c005e]" started-at="2023-08-29T20:44:59 IST" name="setUp" finished-at="2023-08-29T20:45:08 IST" duration-ms="9296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Autocomplete()[pri:0, instance:TestCase.AutoCompleteTest@4d1c005e]" started-at="2023-08-29T20:45:08 IST" name="Autocomplete" finished-at="2023-08-29T20:45:12 IST" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Autocomplete -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.AutoCompleteTest@4d1c005e]" started-at="2023-08-29T20:45:12 IST" name="tearDown" finished-at="2023-08-29T20:45:12 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.AutoCompleteTest -->
+      <class name="TestCase.ButtonsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.ButtonsTest@8462f31]" started-at="2023-08-29T20:45:12 IST" name="setup" finished-at="2023-08-29T20:45:21 IST" duration-ms="8461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Buttons()[pri:0, instance:TestCase.ButtonsTest@8462f31]" started-at="2023-08-29T20:45:21 IST" name="Buttons" finished-at="2023-08-29T20:45:22 IST" duration-ms="1082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Buttons -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.ButtonsTest@183ec003]" started-at="2023-08-29T17:58:37 IST" name="tearDown" finished-at="2023-08-29T17:58:38 IST" duration-ms="671" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.ButtonsTest@8462f31]" started-at="2023-08-29T20:45:22 IST" name="tearDown" finished-at="2023-08-29T20:45:22 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCase.ButtonsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -45,4 +45,9 @@ public class HomePage{
 	return new ButtonsPage(driver);
     }
     
+    public CheckBoxPages clickCheckBox() {
+	element.clickOnElement(checkbox, element.EXPLICIT_WAIT_BASIC_TIME);
+	return new CheckBoxPages(driver);
+    }
+    
 }
