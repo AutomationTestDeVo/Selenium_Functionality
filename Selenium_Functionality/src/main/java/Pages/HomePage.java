@@ -40,4 +40,9 @@ public class HomePage{
 	return new AutoCompletePage(driver);
     }
     
+    public ButtonsPage clickButtons() {
+	element.clickOnElement(buttons, element.EXPLICIT_WAIT_BASIC_TIME);
+	return new ButtonsPage(driver);
+    }
+    
 }

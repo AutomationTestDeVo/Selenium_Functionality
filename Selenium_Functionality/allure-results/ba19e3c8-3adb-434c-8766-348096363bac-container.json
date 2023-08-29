@@ -1,0 +1,1 @@
+{"uuid":"ba19e3c8-3adb-434c-8766-348096363bac","name":"TestCase.ButtonsTest.setup","children":["659acc1a-f7eb-464b-9466-b1151c72de31"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1693307852827,"stop":1693307860145}],"afters":[],"start":1693307852827,"stop":1693307860145}
