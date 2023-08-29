@@ -1,0 +1,1 @@
+{"uuid":"4733aee0-8ced-4855-9260-f802ebd588c6","name":"TestCase.AutoCompleteTest.setUp","children":["58f7f261-8e38-49d0-b148-5c003b40700c"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1693225879603,"stop":1693225888453}],"afters":[],"start":1693225879603,"stop":1693225888454}
