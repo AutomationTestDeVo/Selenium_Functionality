@@ -37,6 +37,9 @@ public class HomePage{
     @FindBy(linkText = "Modal")
     private WebElement modal;
     
+    @FindBy(linkText = "Dropdown")
+    private WebElement dropdown;
+    
     public AutoCompletePage clickAutoComplete() {
 	element.clickOnElement(autocomplete, element.EXPLICIT_WAIT_BASIC_TIME);
 	return new AutoCompletePage(driver);
@@ -60,6 +63,11 @@ public class HomePage{
     public ModalPage clickmodalPage() {
 	element.clickOnElement(modal, element.EXPLICIT_WAIT_BASIC_TIME);
 	return new ModalPage(driver);
+    }
+    
+    public DropdownPage clickdropdown() {
+	element.clickOnElement(dropdown, element.EXPLICIT_WAIT_BASIC_TIME);
+	return new DropdownPage(driver);
     }
     
 }

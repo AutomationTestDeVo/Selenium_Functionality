@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-31T15:59:13 IST" name="Default suite" finished-at="2023-08-31T15:59:21 IST" duration-ms="7692">
+  <suite started-at="2023-08-31T18:16:42 IST" name="Default suite" finished-at="2023-08-31T18:16:54 IST" duration-ms="11962">
     <groups>
     </groups>
-    <test started-at="2023-08-31T15:59:13 IST" name="Default test" finished-at="2023-08-31T15:59:21 IST" duration-ms="7692">
-      <class name="TestCase.ModalTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.ModalTest@183ec003]" started-at="2023-08-31T15:59:13 IST" name="setup" finished-at="2023-08-31T15:59:18 IST" duration-ms="5221" status="PASS">
+    <test started-at="2023-08-31T18:16:42 IST" name="Default test" finished-at="2023-08-31T18:16:54 IST" duration-ms="11962">
+      <class name="TestCase.DropdownTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.DropdownTest@183ec003]" started-at="2023-08-31T18:16:42 IST" name="setup" finished-at="2023-08-31T18:16:52 IST" duration-ms="9301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="modaltest()[pri:0, instance:TestCase.ModalTest@183ec003]" started-at="2023-08-31T15:59:18 IST" name="modaltest" finished-at="2023-08-31T15:59:20 IST" duration-ms="1925" status="PASS">
+        <test-method signature="testdropDown()[pri:0, instance:TestCase.DropdownTest@183ec003]" started-at="2023-08-31T18:16:52 IST" name="testdropDown" finished-at="2023-08-31T18:16:54 IST" duration-ms="1931" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modaltest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.ModalTest@183ec003]" started-at="2023-08-31T15:59:20 IST" name="teardown" finished-at="2023-08-31T15:59:21 IST" duration-ms="428" status="PASS">
+        </test-method> <!-- testdropDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.DropdownTest@183ec003]" started-at="2023-08-31T18:16:54 IST" name="teardown" finished-at="2023-08-31T18:16:54 IST" duration-ms="584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TestCase.ModalTest -->
+      </class> <!-- TestCase.DropdownTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

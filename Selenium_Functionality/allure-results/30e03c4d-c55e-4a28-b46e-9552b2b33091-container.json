@@ -1,0 +1,1 @@
+{"uuid":"30e03c4d-c55e-4a28-b46e-9552b2b33091","name":"TestCase.ModalTest.teardown","children":["fad8fabe-cedb-49e6-89eb-4cf026967687"],"description":"","befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1693477760597,"stop":1693477761025}],"start":1693477760597,"stop":1693477761025}

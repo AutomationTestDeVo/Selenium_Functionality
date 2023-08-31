@@ -1,0 +1,1 @@
+{"uuid":"7bf19384-435f-40fe-bd0e-91ed54f5be46","name":"TestCase.DropdownTest.setup","children":["a7bfa282-05f5-4fab-b1b2-351d582c01d0"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1693485507370,"stop":1693485515729}],"afters":[],"start":1693485507368,"stop":1693485515729}
