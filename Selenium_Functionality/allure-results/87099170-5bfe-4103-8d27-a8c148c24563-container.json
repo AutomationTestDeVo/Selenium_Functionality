@@ -1,0 +1,1 @@
+{"uuid":"87099170-5bfe-4103-8d27-a8c148c24563","name":"TestCase.ModalTest.setup","children":["61ee8573-c029-4f3c-a432-3e31b13e0f77"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1693418684159,"stop":1693418691100}],"afters":[],"start":1693418684158,"stop":1693418691100}

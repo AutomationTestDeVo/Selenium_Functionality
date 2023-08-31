@@ -32,8 +32,10 @@ public class HomePage{
     private WebElement checkbox;
     
     @FindBy(linkText="Datepicker")
-    private WebElement datepicket;
+    private WebElement datepicker;
     
+    @FindBy(linkText = "Modal")
+    private WebElement modal;
     
     public AutoCompletePage clickAutoComplete() {
 	element.clickOnElement(autocomplete, element.EXPLICIT_WAIT_BASIC_TIME);
@@ -48,6 +50,16 @@ public class HomePage{
     public CheckBoxPages clickCheckBox() {
 	element.clickOnElement(checkbox, element.EXPLICIT_WAIT_BASIC_TIME);
 	return new CheckBoxPages(driver);
+    }
+    
+    public datePickerPage clickdatepicker() {
+	element.clickOnElement(datepicker, element.EXPLICIT_WAIT_BASIC_TIME);
+	return new datePickerPage(driver);
+    }
+    
+    public ModalPage clickmodalPage() {
+	element.clickOnElement(modal, element.EXPLICIT_WAIT_BASIC_TIME);
+	return new ModalPage(driver);
     }
     
 }
