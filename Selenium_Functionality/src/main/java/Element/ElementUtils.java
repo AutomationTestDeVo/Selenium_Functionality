@@ -132,4 +132,23 @@ public class ElementUtils {
        }
    }
    
+   //Scrolling Action using Javascript
+   
+   public void jsScrollTillElement(WebElement element, long durationInSeonds) {
+       WebElement webElement = visibilityofElement(element, durationInSeonds);
+       JavascriptExecutor jse = ((JavascriptExecutor)driver);
+       jse.executeScript("arguments[0].scrollIntoView(true)", webElement);
+   }
+   
+
+   public void jsScrollByPixels(int pixel) {
+       JavascriptExecutor jse = ((JavascriptExecutor)driver);
+       jse.executeScript("window.scrollBy(0,"+pixel+")", "");
+   }
+   
+   public void jsScrollToLast() {
+       JavascriptExecutor jse = ((JavascriptExecutor)driver);
+       jse.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+   }
+   
 }

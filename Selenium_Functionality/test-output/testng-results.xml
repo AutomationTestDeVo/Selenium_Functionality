@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-31T18:16:42 IST" name="Default suite" finished-at="2023-08-31T18:16:54 IST" duration-ms="11962">
+  <suite started-at="2023-08-31T22:58:21 IST" name="Default suite" finished-at="2023-08-31T22:58:33 IST" duration-ms="11483">
     <groups>
     </groups>
-    <test started-at="2023-08-31T18:16:42 IST" name="Default test" finished-at="2023-08-31T18:16:54 IST" duration-ms="11962">
-      <class name="TestCase.DropdownTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.DropdownTest@183ec003]" started-at="2023-08-31T18:16:42 IST" name="setup" finished-at="2023-08-31T18:16:52 IST" duration-ms="9301" status="PASS">
+    <test started-at="2023-08-31T22:58:21 IST" name="Default test" finished-at="2023-08-31T22:58:33 IST" duration-ms="11483">
+      <class name="TestCase.PageScrollTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.PageScrollTest@183ec003]" started-at="2023-08-31T22:58:21 IST" name="setup" finished-at="2023-08-31T22:58:31 IST" duration-ms="9666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testdropDown()[pri:0, instance:TestCase.DropdownTest@183ec003]" started-at="2023-08-31T18:16:52 IST" name="testdropDown" finished-at="2023-08-31T18:16:54 IST" duration-ms="1931" status="PASS">
+        <test-method signature="scrolltest()[pri:0, instance:TestCase.PageScrollTest@183ec003]" started-at="2023-08-31T22:58:31 IST" name="scrolltest" finished-at="2023-08-31T22:58:32 IST" duration-ms="1194" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdropDown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.DropdownTest@183ec003]" started-at="2023-08-31T18:16:54 IST" name="teardown" finished-at="2023-08-31T18:16:54 IST" duration-ms="584" status="PASS">
+        </test-method> <!-- scrolltest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.PageScrollTest@183ec003]" started-at="2023-08-31T22:58:32 IST" name="teardown" finished-at="2023-08-31T22:58:33 IST" duration-ms="498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TestCase.DropdownTest -->
+      </class> <!-- TestCase.PageScrollTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

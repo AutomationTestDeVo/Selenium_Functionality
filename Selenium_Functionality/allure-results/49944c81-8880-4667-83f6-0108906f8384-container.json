@@ -1,0 +1,1 @@
+{"uuid":"49944c81-8880-4667-83f6-0108906f8384","name":"TestCase.PageScrollTest.setup","children":["7436abe9-82f2-4c74-8df9-2d7e8361553d"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1693502624799,"stop":1693502632309}],"afters":[],"start":1693502624798,"stop":1693502632310}

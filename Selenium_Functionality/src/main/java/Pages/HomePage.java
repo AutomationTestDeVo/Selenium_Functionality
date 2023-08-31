@@ -40,6 +40,9 @@ public class HomePage{
     @FindBy(linkText = "Dropdown")
     private WebElement dropdown;
     
+    @FindBy(linkText="Page Scroll")
+    private WebElement Page_scroll;
+    
     public AutoCompletePage clickAutoComplete() {
 	element.clickOnElement(autocomplete, element.EXPLICIT_WAIT_BASIC_TIME);
 	return new AutoCompletePage(driver);
@@ -68,6 +71,11 @@ public class HomePage{
     public DropdownPage clickdropdown() {
 	element.clickOnElement(dropdown, element.EXPLICIT_WAIT_BASIC_TIME);
 	return new DropdownPage(driver);
+    }
+    
+    public PageScrollPage clickpagescroll() {
+	element.clickOnElement(Page_scroll, element.EXPLICIT_WAIT_BASIC_TIME);
+	return new PageScrollPage(driver);
     }
     
 }
